@@ -4,9 +4,26 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: content/identities
   label: Identities
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/editorial
+  label: Editorial
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/conceptual
+  label: Conceptual
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/collaborations
+  label: Collaborations
   create: all
   match: "**/*"
 upload_dir: uploads
