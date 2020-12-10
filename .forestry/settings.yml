@@ -27,7 +27,7 @@ sections:
   create: all
   match: "**/*"
 upload_dir: kld-design
-public_path: kld-design
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
