@@ -4,6 +4,7 @@
     {% include "head.njk" %}
   </head>
   <body class="{{ bodyClass }}">
-    {{ content | safe }}
+    {% include "_header.njk" %}
+    {% include "_main.njk" %}
   </body>
 </html>

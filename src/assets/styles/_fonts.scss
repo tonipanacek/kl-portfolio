@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Abilene";
+  src: url("/assets/fonts/Abileneflf-1GD4.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BackyardPersonal";
+  src: url("/assets/fonts/BackyardPersonal-M89v.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bedrock";
+  src: url("/assets/fonts/Bedrock-8YeJ.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Editorial";
+  src: url("/assets/fonts/Editorial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Karrik";
+  src: url("/assets/fonts/Karrik-Italic.woff2") format("woff2");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Karrik";
+  src: url("/assets/fonts/Karrik-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+
+.abile {
+  font-family: 'Abilene';
+} .backyard {
+  font-family: 'BackyardPersonal';
+} .bedrock {
+  font-family: 'Bedrock';
+} .edit {
+  font-family: 'Editorial';
+} .karrik-reg {
+  font-family: 'Karrik';
+} .karrik-italic {
+  font-family: 'Karrik';
+  font-style: italic;
+}
